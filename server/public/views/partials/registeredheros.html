@@ -1,0 +1,6 @@
+<div class="container">
+  <p ng-repeat="hero in heros">
+    {{hero.alias}} {{hero.first_name}} {{hero.last_name}} {{hero.city}} {{hero.power_name}}
+    <button ng-click=removeHero(hero._id)>Remove Hero</button>
+  </p>
+</div>

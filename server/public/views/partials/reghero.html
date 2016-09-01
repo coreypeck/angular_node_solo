@@ -1,0 +1,19 @@
+<div class="container">
+    <form>
+        <label for="alias">Alias:</label>
+        <input type="text" id="alias" name="alias" ng-model="alias" />
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" ng-model="fName" />
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" ng-model="lName" />
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" ng-model="city" />
+
+        <select class="power_name" ng-model="power_name" ng-options="power.id as power.label for power in powers"></select>
+
+        <button ng-click="addHero()">Record Hero</button>
+    </form>
+</div>
