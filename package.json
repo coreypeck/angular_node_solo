@@ -1,7 +1,7 @@
 {
-  "name": "Intro_to_Mongoose",
+  "name": "Solo Angular/Mongo",
   "version": "1.0.0",
-  "description": "Walk through the Mongo in Node via Mongoose app for books",
+  "description": "See Name",
   "main": "app.js",
   "scripts": {
     "start": "node server/app.js",
